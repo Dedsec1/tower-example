@@ -1,0 +1,8 @@
+---
+- name: Hello World!
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Hello World!
+    shell: wget -4 -O /dev/null http://speedtest.serverius.net/files/2000mb.bin
