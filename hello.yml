@@ -1,8 +1,9 @@
 ---
-- name: Hello World!
+- name: iperf3 Serverius Test
   hosts: all
  
   tasks:
  
-  - name: Hello World!
-    shell: wget -4 -O /dev/null http://speedtest.serverius.net/files/2000mb.bin
+  - name: iperf3 Serverius Test
+    command: wget -4  http://speedtest.serverius.net/files/2000mb.bin
+   
