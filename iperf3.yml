@@ -8,6 +8,6 @@
     command: ~/iperf3 -c speedtest.serverius.net -p 5002 -P 10 -4
     register: iperf3
   - debug: var=iperf3.stdout_lines
-    no_log: True
+    
 
 
