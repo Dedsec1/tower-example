@@ -5,5 +5,5 @@
   tasks:
  
   - name: iperf3 Serverius Test
-   command: ~/iperf3 -c speedtest.serverius.net -p 5002 -P 10 -4
+   - command: ~/iperf3 -c speedtest.serverius.net -p 5002 -P 10 -4
    
